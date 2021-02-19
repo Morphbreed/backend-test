@@ -26,10 +26,10 @@ Any `*.go` file in all subdirectories of `/scripts/**` should specify `// +build
 
 # Works
 go run -tags scripts scripts/modulename/modulename.go
-allaboutapps.dev/aw/go-starter
+backend-test
 
 # Misses build tag "scripts"
 go run scripts/modulename/modulename.go
 package command-line-arguments
-	imports allaboutapps.dev/aw/go-starter/scripts: build constraints exclude all Go files in /app/scripts
+	imports backend-test/scripts: build constraints exclude all Go files in /app/scripts
 ```

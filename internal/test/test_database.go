@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	pUtil "allaboutapps.dev/aw/go-starter/internal/util"
+	pUtil "backend-test/internal/util"
 	"github.com/allaboutapps/integresql-client-go"
 	"github.com/allaboutapps/integresql-client-go/pkg/util"
 	migrate "github.com/rubenv/sql-migrate"

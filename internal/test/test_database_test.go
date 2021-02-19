@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"allaboutapps.dev/aw/go-starter/internal/test"
+	"backend-test/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

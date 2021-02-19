@@ -21,7 +21,7 @@ import (
 	"strings"
 	"text/template"
 
-	"allaboutapps.dev/aw/go-starter/scripts"
+	"backend-test/scripts"
 )
 
 // https://blog.carlmjohnson.net/post/2016-11-27-how-to-use-go-generate/
@@ -45,7 +45,7 @@ var (
 package handlers
 
 import (
-	"allaboutapps.dev/aw/go-starter/internal/api"
+	"backend-test/internal/api"
 	{{- range .SubPkgs }}
 	"{{ . }}"
 	{{- end }}

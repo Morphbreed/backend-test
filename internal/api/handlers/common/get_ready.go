@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
+	"backend-test/internal/api"
 	"github.com/labstack/echo/v4"
 )
 

@@ -1,6 +1,6 @@
 package main
 
-import "allaboutapps.dev/aw/go-starter/cmd"
+import "backend-test/cmd"
 
 func main() {
 	cmd.Execute()

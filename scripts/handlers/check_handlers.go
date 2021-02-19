@@ -15,10 +15,10 @@ import (
 	"strings"
 	"sync"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/router"
-	"allaboutapps.dev/aw/go-starter/internal/config"
-	"allaboutapps.dev/aw/go-starter/internal/types"
+	"backend-test/internal/api"
+	"backend-test/internal/api/router"
+	"backend-test/internal/config"
+	"backend-test/internal/types"
 	"github.com/rs/zerolog"
 )
 

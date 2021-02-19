@@ -1,4 +1,4 @@
-module allaboutapps.dev/aw/go-starter
+module backend-test
 
 go 1.15
 

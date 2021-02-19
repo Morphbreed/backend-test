@@ -3,9 +3,9 @@ package push
 import (
 	"net/http"
 
-	"allaboutapps.dev/aw/go-starter/internal/api"
-	"allaboutapps.dev/aw/go-starter/internal/api/auth"
-	"allaboutapps.dev/aw/go-starter/internal/util"
+	"backend-test/internal/api"
+	"backend-test/internal/api/auth"
+	"backend-test/internal/util"
 	"github.com/labstack/echo/v4"
 )
 
